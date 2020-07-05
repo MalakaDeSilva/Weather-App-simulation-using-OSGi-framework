@@ -30,4 +30,10 @@ public class Constants {
 	
 	//Name of the image used for temperaturePanel
 	public static final ImageIcon TEMPERATURE_IMAGE = new ImageIcon(new ImageIcon(IMAGE_PATH + "icon.png").getImage().getScaledInstance(80, 80, Image.SCALE_SMOOTH));
+	
+	// OpenWeather API KEY
+	public static final String APIKey = "&appid=48a8b39da6b3848ddeaa99a01c88bc3b";
+	
+	// OpenWeather API url
+	public static final String _URL = "https://api.openweathermap.org/data/2.5/weather?q=";
 }
